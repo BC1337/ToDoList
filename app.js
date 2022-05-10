@@ -1,3 +1,9 @@
+// adding ability to actually use the home button
+document.getElementById('homeIcon').onclick = function () {
+    location.href = "../projectHub/index.html"
+}
+
+
 // seclectors
 const todoInput = document.querySelector('.todo-input');
 const todoButton = document.querySelector('.todo-button');
